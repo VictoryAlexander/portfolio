@@ -1,9 +1,11 @@
-import './Navigation.css';
-
 function Navigation() {
   return (
-    <nav className="nav">
-      
+    <nav>
+      <ul className="flex flex-row">
+        <li>Background</li>
+        <li>Experience</li>
+        <li>Projects</li>
+      </ul>
     </nav>
   )
 }
